@@ -21,7 +21,7 @@ Supports Android 2.2+ (API level 8).
 
 **activity_main.xml**
 
-```
+```xml
 <cubi.rafi.DashboardLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="fill_parent"
@@ -68,7 +68,7 @@ Supports Android 2.2+ (API level 8).
 
 **MainActivity.java**
 
-```
+```java
 public class MainActivity extends Activity {
 
 	@Override
