@@ -19,8 +19,6 @@ Supports Android 2.2+ (API level 8).
 
 ### Example 
 
-**activity_main.xml**
-
 ```xml
 <cubi.rafi.DashboardLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
@@ -30,61 +28,32 @@ Supports Android 2.2+ (API level 8).
     <Button android:id="@+id/dashboard_user"
         style="@style/DashboardButton"
         android:text="My Profile"
-        android:drawableTop="@drawable/dashboard_user"
-        android:onClick="onUserClick" />
+        android:drawableTop="@drawable/dashboard_user" />
 
     <Button android:id="@+id/dashboard_emergency_contact"
         style="@style/DashboardButton"
         android:text="Emergency Contact"
-        android:drawableTop="@drawable/dashboard_call"
-        android:onClick="onEmergencyContactClick" />
+        android:drawableTop="@drawable/dashboard_call" />
 
     <Button android:id="@+id/dashboard_new_accident"
         style="@style/DashboardButton"
         android:text="New Accident"
-        android:drawableTop="@drawable/dashboard_add"
-        android:onClick="onNewAccidentClick" />
+        android:drawableTop="@drawable/dashboard_add" />
 
     <Button android:id="@+id/dashboard_send_case"
         style="@style/DashboardButton"
         android:text="Send Case"
-        android:drawableTop="@drawable/dashboard_message"
-        android:onClick="onSendCaseClick" />
+        android:drawableTop="@drawable/dashboard_message" />
 
     <Button android:id="@+id/dashboard_record"
         style="@style/DashboardButton"
         android:text="Record"
-        android:drawableTop="@drawable/dashboard_record"
-        android:onClick="onDashboardClick" />
+        android:drawableTop="@drawable/dashboard_record" />
 
     <Button android:id="@+id/dashboard_tow_truck"
         style="@style/DashboardButton"
         android:text="Tow Truck"
-        android:drawableTop="@drawable/dashboard_truck"
-        android:onClick="onTowTruckClick" />
+        android:drawableTop="@drawable/dashboard_truck" />
  
 </cubi.rafi.DashboardLayout>
-```
-
-**MainActivity.java**
-
-```java
-public class MainActivity extends Activity {
-
-	@Override
-	protected void onCreate(Bundle savedInstanceState) {
-		super.onCreate(savedInstanceState);
-		setContentView(R.layout.activity_main);		
-	}
-	
-	public void onUserClick(View v) {
-		....
-	}
-	
-	public void onEmergencyContactClick(View v) {
-		....
-	}
-	
-	......
-}
 ```
